@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>ch.roap.core</PackageId>
+    <Authors>Christophe Jaggi</Authors>
+    <Company />
+    <Product>Roap</Product>
+    <Description>Roap is a simple protocol that uses HTTP and JSON to publish objects from your application for remote access.</Description>
+    <Copyright>© 2018 Christophe Jaggi</Copyright>
+    <PackageProjectUrl>https://github.com/Therrania/Roap</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Therrania/Roap</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Roap.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
